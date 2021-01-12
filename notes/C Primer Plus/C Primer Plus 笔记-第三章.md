@@ -59,4 +59,22 @@ int main(void)
 	- 打印short, long, long long, unsigned
 		- short: %h 如:%hd,%hx,%ho
 		- long: %l 如:%ld,%lx,%lo
-	- 非打印字符:转义
+	- 使用字符: char类型
+		- 变量声明:<br>
+			char response;<br>
+			char itable, latan;
+		- 字符常量及其初始化
+			char grade = 'A'
+		- 非打印字符:转义
+	- _Bool 类型
+	- 可移植的类型:inttypes.h
+		- 详见代码alternames.c
+	- float, double, long double 类型
+		- 声明变量:略
+		- 浮点常量及初始化
+			- 3.1415926<br>
+			- .2<br>
+			- 4e16<br>
+			- .8E-5<br>
+			- 100.<br>
+		- 类型大小:见typesize.c
