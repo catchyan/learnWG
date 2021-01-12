@@ -22,7 +22,7 @@
 	xxx.c为源文件(源代码)
 	编译器将xxx.c转换为**中间代码**
 	链接器将**中间代码**与其他代码相结合生成**可执行文件**<br>
-	![图1.4](https://github.com/catchyan/learnWG/blob/main/resource/img/%E6%B1%87%E7%BC%961.4.JPG)<br>
+	![图1.4](https://github.com/catchyan/learnWG/blob/main/resource/img/C-1.4.JPG)<br>
 	链接器的作用就是把**目标代码**,**系统的标准启动代码**和**库代码**结合在一起,并将他们存放在单个文件中<br>
 	(我的windows下的C语言IDE为VSCode,可以使用[这个地址](https://guyutongxue.github.io/VSCodeConfigHelper/)安装需要的插件)
 - 语言标准
