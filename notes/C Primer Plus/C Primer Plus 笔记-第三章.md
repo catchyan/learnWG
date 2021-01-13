@@ -40,10 +40,10 @@ int main(void)
 
 - 整数类型与浮点数类型
 	- 整数没有小数部分,正数直接以二进制数字存储,负数则以补码方式存储<br>
-	![图3.2](https://github.com/catchyan/learnWG/blob/main/resource/img/C-3.2.JPG)<br>
+	![图3.2](https://github.com/catchyan/learnWG/blob/main/resource/img/C-3.2.jpg)<br>
 	如图:7在存储中为:00000111,-128为10000000,127为01111111
 	浮点数有指数部分表示<br>
-	![图3.2](https://github.com/catchyan/learnWG/blob/main/resource/img/C-3.3.JPG)<br>
+	![图3.2](https://github.com/catchyan/learnWG/blob/main/resource/img/C-3.3.jpg)<br>
 - C数据类型
 	- int类型
 		- 声明int变量:略
