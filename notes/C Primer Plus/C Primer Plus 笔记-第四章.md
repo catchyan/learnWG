@@ -39,3 +39,15 @@ int main(void)
 	[例:praise2.c](https://github.com/catchyan/learnWG/blob/main/notes/C%20Primer%20Plus/code/chapter4/praise2.c)
 
 - 常量和C预处理器
+    - #define NAME value可以定义常量<br>这种方法称为编译时带入法(compile-time substitution)<br>这样定义的常量通常被称为"明显常量"(manifest constant)
+    - const修饰符<br>
+    const int MONTH = 12;
+    - 系统定义的明显变量<br>
+    如limits.h文件中的 #define INT_MAX 32767
+- 研究和利用printf()和scanf()
+    - printf()函数<br>
+    %d,%c被称为转换说明符
+    - 使用printf():略
+    - printf()的转换说明修饰符
+    ![表4.4](https://github.com/catchyan/learnWG/blob/main/resource/img/B-4.4.jpg
+    - 案例(见第四章code)

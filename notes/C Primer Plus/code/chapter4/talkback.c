@@ -14,7 +14,9 @@ int main(void)
     size = sizeof name;
     letters = strlen(name);
     volume = weight / DENSITY;
-    printf("Well, %s, your volume is %2.2f cubic feet.\n", name, volume);
+    printf("Well, %s, your volume is %100.2f cubic feet.\n", name, volume);
+    // 这里的100表示最小宽度,也就是保证一个最小站位,比如这里如果我输入体重300
+    // 那么他就会显示一大长传空格加一个数,这一大长串就是100的作用
     printf("Also, your firstname has %d letters.\n", letters);
     printf("and we have %d bytes to store it in.\n", size);
     return 0;
