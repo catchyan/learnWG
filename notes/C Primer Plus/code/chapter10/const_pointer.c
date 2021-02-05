@@ -23,5 +23,14 @@ int main(void)
     pd = &rates[1]; // 允许
     pd = arr2[1]; // 允许
     // 以上说明了,const修饰的指针指示保证了"它所指向的内容不能被修改",而不是它本身不能被修改
+    double * const ptest = rates;
+    // ptest = locked; // 不允许
+    // ptest++; // 不允许
+    // * const xxx 表示这个指针不允许改变指向
+    const double * const ptest1 = rates;
+    // 这样定义不能改变指针指向,也不能修改所指向的值
+    double * ptest2 = rates;
+    ptest2 = locked; // f非法
+    ptest2[0] = 3;
     return 0;
 }
